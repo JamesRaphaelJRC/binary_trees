@@ -2,6 +2,9 @@
 #define _BINARY_TREES_H_
 
 #include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 
 /**
@@ -19,7 +22,6 @@ typedef struct binary_tree_s
 	struct binary_tree_s *left;
 	struct binary_tree_s *right;
 } binary_tree_t;
-
 typedef struct binary_tree_s binary_tree_t;
 typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
